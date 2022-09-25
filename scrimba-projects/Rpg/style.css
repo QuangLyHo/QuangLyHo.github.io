@@ -8,7 +8,7 @@ body {
     margin: 0;
     text-align: center;
     background: #999;
-    background-image: url(/images/DS.webp);
+    background-image: url('./images/DS.webp');
     background-blend-mode: multiply;
     background-repeat: no-repeat;
     background-size: cover;

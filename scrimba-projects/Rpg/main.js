@@ -75,7 +75,7 @@ function reset() {
 
     monsterArr = ["skeleton", "gundyr", "slaveknightgael"]
     monsterImg = 0
-    monsterImgArr = ['/images/skelly.webp', './images/hero.webp', '/images/slaveknightgael.png']
+    monsterImgArr = ['./images/skelly.webp', './images/hero.webp', './images/slaveknightgael.png']
     wizard.reset()
     monster = getMonster()
     attackBtn.addEventListener('click', attack)

@@ -1,0 +1,310 @@
+/*
+  Josh's Custom CSS Reset
+  https://www.joshwcomeau.com/css/custom-css-reset/
+*/
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+* {
+    margin: 0;
+}
+html, body {
+    height: 100%;
+}
+body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+
+    background: #121212;
+    font-family: 'Inter', sans-serif;
+    color: #fff;
+    letter-spacing: 1.5px;
+    font-size: 16px;
+}
+img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+}
+input, button, textarea, select {
+    font: inherit;
+}
+p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+}
+
+#root, #__next {
+    isolation: isolate;
+}
+/* =============
+=== TYPOGRAPHY =
+============== */
+
+h1 {
+    font-size: 2.7rem;
+    font-weight: 800;
+}
+
+h3 {
+    font-size: 1.2rem;
+}
+
+p {
+    font-size: .875rem;
+    color: #fff;
+    letter-spacing: normal;
+}
+
+.movie-card-plot p {
+    color: #a5a5a5;
+}
+
+a {
+    font-size: 1.2rem;
+    color: inherit;
+    text-decoration: none;
+    letter-spacing: 1px;
+    font-weight: 700;
+}
+
+a:hover {
+    color: rgba(200,200,200,.7);
+}
+
+a:after {
+    color: inherit;
+}
+
+.start-exploring-placeholder h3 {
+    color: #2e2e2f;
+}
+
+.watchlist-msg-placeholder {
+    color: #787878;
+}
+
+button {
+    font-size: .875rem;
+}
+
+
+/* =============
+=== LAYOUT =====
+============== */
+
+.container {
+    width: 575px;
+    margin: 2em auto;
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+}
+
+header {
+    width: 100%;
+    padding: 1.25em;
+}
+
+.header-bg-img {
+    background-color: #404040;
+    background-image: url('./images/header.png');
+    background-blend-mode: multiply;
+    background-position: top 20% center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.header-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2em 0 1em;
+}
+
+.search-bar_container {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 5.5em;
+}
+
+#movie-search_form {
+    width: 500px;
+    display: grid;
+    grid-template-columns: 1fr 10fr 4fr;
+}
+
+#movie-search_form::before {
+    content: '';
+    background-image: url('./images/search.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    padding: 1.25em;
+    top: 0px;
+    left: 1px;
+    border-radius: 5px 0 0 5px;
+}
+
+.movie-search_bar {
+    background: #2e2e2f;
+    color: #a5a5a5;
+    border: none;
+    outline: none;
+}
+
+.movie-card-container {
+    margin: 4em auto;
+    display: flex;
+}
+
+.start-exploring-placeholder {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 6em;
+    text-align: center;
+}
+
+.start-exploring-placeholder img {
+    width: 70px;
+    margin-bottom: 1em;
+}
+
+.movie-card {
+    display: flex;
+    margin: .5em 0;
+    border-bottom: 2px solid #2e2e2f;
+}
+
+.movie-card:last-child {
+    border-bottom: none;
+}
+
+.movie-card-main {
+    width: 65%;
+    order: 2;
+    padding: 1.5em 1em .5em;
+}
+
+.movie-card-secondary {
+    width: 30%;
+    margin-bottom: 1em;
+    padding: .5em;
+    order: 1;
+    background: #4b4b4b;
+    display: flex;
+}
+
+.poster-na {
+    color: black;
+}
+
+.movie-card-top {
+    display: flex;
+    align-items: center;
+    margin-bottom: .5em;
+    gap: 2em;
+}
+
+.rating::before {
+    content: '';
+    background-image: url('./images/star.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: .5em;
+    position: relative;
+    left: -2px;
+}
+
+.movie-card-summary {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: .5em
+}
+
+#movie-return-watchlist {
+    display: flex;
+    align-items: center;
+}
+
+
+/* =============
+=== BUTTON =====
+============== */
+.btn:active {
+    transform: translate(0,4px);
+}
+
+.search-btn {
+    border-radius: 0 5px 5px 0;
+    background-color: #4b4b4b;
+    color: #a5a5a5;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+.search-btn:hover {
+    background: rgba(100,100,100,.9);
+    color: #fff;
+}
+
+.watchlist-add,
+.watchlist-remove {
+    background: inherit;
+    outline: none;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+.watchlist-add::before {
+    content: '';
+    background-image: url('./images/add.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    padding: .5em;
+    top: 10px;
+    left: -4px;
+}
+
+.watchlist-add:hover,
+.watchlist-remove:hover {
+    color: rgba(250,250,250, 0.5)
+}
+
+.watchlist-add:hover::before {
+    content: '';
+    background-image: url('./images/addHover.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    padding: .5em;
+    top: 10px;
+    left: -4px;
+}
+
+.watchlist-remove::before {
+    content: '';
+    background-image: url('./images/remove.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    padding: .5em;
+    top: 9px;
+    left: -3px;
+}
+
+.watchlist-remove:hover::before {
+    content: '';
+    background-image: url('./images/removeHover.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    padding: .5em;
+    top: 9px;
+    left: -3px;
+}

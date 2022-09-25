@@ -1,0 +1,164 @@
+html {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    text-align: center;
+    background: #999;
+    background-image: url(/images/DS.webp);
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #FFF;
+    font-size: 16px;
+    letter-spacing: 1px;
+    box-sizing: border-box;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media (min-width:600px) {
+    main {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin: 5em 0 2em;
+    }
+}
+
+img {
+    width: 100%;
+}
+
+h2 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+h3 {
+    margin-bottom: 0;
+}
+
+.image {
+    width: 15vh;
+    margin: 0 auto;
+    background: rgba(0, 0, 0, .4);
+}
+
+@media (min-width:600px) {
+    .image {
+        width: 25vh;
+        margin: 1em auto;
+    }
+}
+
+.character-card {
+    border: 5px solid #000721;
+    border-radius: 15px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    margin: 2em 0 1em;
+    box-shadow: inset 0px 0px 6px 2px rgba(100,100,100,0.2),
+    0px 0px 10px rgba(117,182,214,0.2);
+}
+
+.health {
+    font-size: 1.25rem;
+    text-align: left;
+    margin-left: .25em;
+}
+
+.health b {
+    font-weight: bold;
+    color:#fff;
+}
+
+.health-bar-outer {
+    background: #171217;
+    height: 1vh;
+    width: 90%;
+    margin: 3% 5%;
+    border-radius: 2px;
+}
+
+.health-bar-outer .health-bar-inner {
+    background: #466d34;
+    height: 100%;
+    border-radius: 2px;
+}
+
+.health-bar-outer .health-bar-inner.danger {
+    background: #d1435f;
+}
+
+.dice-container {
+    width: 100%;
+    background: #000721;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 1em 0;
+    border-radius: 0 0 10px 10px;
+    gap: .5em;
+}
+
+.dice {
+    font-weight: bold;
+    font-size: 1.75rem;
+    padding: .25em .5em;
+    background-color: #fff;
+    color: #000721;
+    border-radius: 5px;
+}
+
+.dice-placeholder {
+    padding: 1.425em 1.320em;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+button {
+    padding: .75em 2.5em;
+    border-top: 2px solid rgb(255, 102, 0);
+    border-left: 2px solid rgb(255, 102, 0);
+    border-radius: 5px;
+    background-color: goldenrod;
+    color: #fff;
+    letter-spacing: 1.3px;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.end-game {
+    margin-top: 25%;
+    color: red;
+    font-size: 3rem;
+}
+
+.end-game h2 {
+    font-size: 5rem;
+}
+
+.end-game h3 {
+    margin-top: .5em;
+    margin-bottom: 0;
+}
+
+.end-btn {
+    border: none;
+    background: rgb(51,43,55);
+    font-size: 3em;
+    margin-top: 0;
+    padding: 0;
+}
+
+.hide {
+    display: none;
+}

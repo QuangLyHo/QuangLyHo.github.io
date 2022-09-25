@@ -93,7 +93,7 @@ function render() {
 
 const wizard = new Character(charData.hero)
 let monster = getMonster()
-console.log(monsterImgArr[0])
+
 attackBtn.addEventListener('click', attack)
 document.querySelector('.end-btn').addEventListener('click', reset)
 

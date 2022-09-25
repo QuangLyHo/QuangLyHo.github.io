@@ -8,7 +8,7 @@ const monsterDiv = document.getElementById('monster')
 let isWaiting = false
 let monsterArr = ['skeleton', 'gundyr', 'slaveknightgael']
 
-let monsterImgArr = ['/images/skelly.webp', '/images/gundyr.png', '/images/slaveknightgael.png']
+let monsterImgArr = ['./images/skelly.webp', './images/hero.webp', './images/slaveknightgael.png']
 let monsterImg = 0
 
 function getNextImg() {
@@ -75,7 +75,7 @@ function reset() {
 
     monsterArr = ["skeleton", "gundyr", "slaveknightgael"]
     monsterImg = 0
-    monsterImgArr = ['/images/skelly.webp', '/images/gundyr.png', '/images/slaveknightgael.png']
+    monsterImgArr = ['/images/skelly.webp', './images/hero.webp', '/images/slaveknightgael.png']
     wizard.reset()
     monster = getMonster()
     attackBtn.addEventListener('click', attack)

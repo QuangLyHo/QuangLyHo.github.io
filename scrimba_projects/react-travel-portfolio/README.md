@@ -18,3 +18,7 @@ Second React solo project based on the Scrimba Frontend Developer Career Path. O
 - Semantic HTML5 markup
 - CSS
 - React
+
+### Link
+
+[Live site](https://quanglyho.github.io/react-travel-portfolio/)

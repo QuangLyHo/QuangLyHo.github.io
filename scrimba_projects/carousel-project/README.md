@@ -1,9 +1,10 @@
-<h1 align="center">Image Carousel</h1>
+# Image Carousel
 
-<p align="center">A carousel that rotates through images using Javascript</p>
+A carousel that rotates through images using Javascript.
+Slides are set to change every 3 seconds, or slides can be changed maually with clicking either arror icons or dots below the images.
 
-<h3>Built with</h3>
--javascript<br>
--html<br>
--css
+## Built with
+- Javascript
+- Html
+- CSS
  

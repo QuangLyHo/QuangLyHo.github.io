@@ -18,5 +18,5 @@ The purpose of this project was to create database that will take the users quer
 - HTML5
 - CSS
 - Javascript
-- [OMDb API] (https://www.omdbapi.com/)
+- [OMDb API](https://www.omdbapi.com/)
 

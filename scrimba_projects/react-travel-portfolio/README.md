@@ -12,6 +12,9 @@ Second React solo project based on the Scrimba Frontend Developer Career Path. O
 
 ![travel_journal_mobile](https://user-images.githubusercontent.com/76503650/178316388-0a572da9-4433-4cd0-bf98-6fb0b5291be2.gif)
 
+### Link
+
+- [Live site](https://react-travel-portfolio.vercel.app/)
 
 ### Built with 
 

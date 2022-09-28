@@ -1,0 +1,162 @@
+:root {
+    --bg: #23252C;
+    --bg-card: #1A1B21;
+    --white-color: #fff;
+    --secondary-white-color: #999999;
+    --info-role-color: #f3bf99;
+    --email-color: #374151;
+    --linkedin-color: #5093e2;
+    --footer-color: #918e9b;
+    --footer-bg: #161619;
+}
+
+/*  GENERAL */
+
+* {
+    box-sizing: border-box;
+}
+
+html, 
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: var(--bg);
+    color: var(--secondary-white-color);
+    height: 100vh;
+    font-family: 'Inter', sans-serif;
+}
+
+#root {
+    margin: 2em auto;
+}
+
+img {
+    max-width: 100%;
+}
+
+.card {
+    background: var(--bg-card);
+    width: 350px;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+button {
+    padding: 9px 35px;
+}
+
+.info {
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+.main {
+    margin: 2em 0 0 2em;
+    padding-bottom: 2em;
+    max-width: 300px;
+}
+
+.about {
+    max-width: 250px;
+    line-height: 1.5;
+    margin-bottom: 0em;
+    padding-bottom: 0;
+}
+
+footer {
+    border-radius: 0 0 5px 5px;
+    background: var(--footer-bg);
+
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    justify-content: space-evenly;
+}
+
+.footer--img {
+    width: 25px;
+    margin: .5em 0;
+    padding: 0;
+}
+
+
+/* TYPOGRAPHY */
+
+.info--name {
+    color: var(--white-color);
+    font-size: 1.56rem;
+    margin: 1em 0 .25em 0;
+}
+
+.info--role {
+    color: var(--info-role-color);
+    margin: .25em;
+    font-size: .85rem;
+}
+
+.info--link {
+    margin-top: .5em;
+    font-size: .625rem;
+}
+
+.about > h2 {
+    margin: 0;
+    font-size: 1rem;
+    color: var(--white-color);
+}
+
+.about > p {
+    font-size: .625rem;
+    margin-top: .25em;
+}
+
+/* BUTTON CONTAINER */
+
+.button-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.button--email,
+.button--linkedin {
+    margin: 0 8px;
+    border-radius: 5px;
+    border: none;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+.button--email {
+    color: var(--email-color);
+    text-decoration: none;
+}
+
+.button--linkedin {
+    background: var(--linkedin-color);
+    color: var(--white-color);
+}
+
+.button--email::before {
+    content: '';
+    background-image: url('./images/mail.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    padding: .5em;
+    top: .5em;
+    right: .8em;
+}
+
+.button--linkedin::before {
+    content: '';
+    background-image: url('./images/linkedin.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    padding: .5em;
+    top: .4em;
+    right: .8em;
+}
+

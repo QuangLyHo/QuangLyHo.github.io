@@ -12,7 +12,6 @@ The purpose of this project was to create database that will take the users quer
 
 - [Live site](https://quanglyho.github.io/solo_projects/movie_watch_list/)
 
-
 ## Built with
 
 - HTML5

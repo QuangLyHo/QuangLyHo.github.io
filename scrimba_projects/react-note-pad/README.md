@@ -8,7 +8,7 @@ The goal of this project was to continue practice within React. Utilizing concep
 
 ## Links
 
-- [Live site](https://quanglyho.github.io/react-note-pad/)
+- [Live site](https://QuangLyHo.github.io/scrimba_projects/react-note-pad)
 
 ## Features
 

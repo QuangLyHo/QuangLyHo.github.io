@@ -23,12 +23,14 @@ function nextSlide() {
 
 function prevSlide() {
     hideAllSlides()
-    
+    clearInterval(autoIncrSlide)
+
     if (slidePosition === 0) {
         slidePosition = totalSlides - 1
     } else slidePosition--
 
     showSlide(slidePosition)
+    autoIncrSlide = setInterval(nextSlide, 3000)
 }
 
 function hideAllSlides() {

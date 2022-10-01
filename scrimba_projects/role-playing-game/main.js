@@ -85,7 +85,7 @@ function reset() {
 
 function render() {
     heroDiv.innerHTML = wizard.getCharHtml()
-    heroDiv.style.backgroundImage = "url(/images/DSHero.png)"
+    heroDiv.style.backgroundImage = "url(./images/DSHero.png)"
     monsterDiv.innerHTML = monster.getCharHtml()
     monsterDiv.style.backgroundImage = `url(${monsterImgArr[monsterImg]})`
 }

@@ -8,11 +8,6 @@ This is an RPG based on a widely popular video game Dark Souls 3. The die rolls 
 
 The goal of this project was gain a better understanding of `.map()`, `class`, `setTimeOut()`, and `.fill()`.
 
-
-### Link
-
-- [Live site](https://react-travel-portfolio.vercel.app/)
-
 ### Built with 
 
 - Semantic HTML5 markup

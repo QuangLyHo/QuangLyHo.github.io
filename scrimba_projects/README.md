@@ -10,7 +10,7 @@ These are my projects that I've worked on throughout my Frontend developer cours
 - [react note pad](https://quanglyho.github.io/react-note-pad/)
 - [react business card](https://react-business-card-one.vercel.app/)
 - [react travel portfolio](https://react-travel-portfolio.vercel.app/)
-- [role playing game](https://quanglyho.github.io/scrimba_projects/rpg/)
+- [role playing game](https://github.com/QuangLyHo/QuangLyHo.github.io/tree/main/scrimba_projects/role-playing-game)
 
 ### Built with
 

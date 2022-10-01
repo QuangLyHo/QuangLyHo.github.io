@@ -4,12 +4,11 @@ These are my projects that I've worked on throughout my Frontend developer cours
 
 ## Links
 
-- [image carousel](https://quanglyho.github.io/scrimba_projects/carousel-project/)
-- [dice roll](https://quanglyho.github.io/scrimba_projects/dice-game/)
-- [emoji picker](https://quanglyho.github.io/scrimba_projects/emoji-app/)
-- [react note pad](https://quanglyho.github.io/react-note-pad/)
-- [react business card](https://react-business-card-one.vercel.app/)
-- [react travel portfolio](https://react-travel-portfolio.vercel.app/)
+- [image carousel](https://github.com/QuangLyHo/QuangLyHo.github.io/tree/main/scrimba_projects/carousel-project)
+- [dice roll](https://github.com/QuangLyHo/QuangLyHo.github.io/tree/main/scrimba_projects/dice-game)
+- [emoji picker](https://github.com/QuangLyHo/QuangLyHo.github.io/tree/main/scrimba_projects/emoji-app)
+- [react business card](https://github.com/QuangLyHo/QuangLyHo.github.io/tree/main/scrimba_projects/react-business-card)
+- [react travel portfolio](https://github.com/QuangLyHo/QuangLyHo.github.io/tree/main/scrimba_projects/role-playing-game)
 - [role playing game](https://github.com/QuangLyHo/QuangLyHo.github.io/tree/main/scrimba_projects/role-playing-game)
 
 ### Built with

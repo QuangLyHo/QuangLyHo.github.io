@@ -1,16 +1,22 @@
-# title(){return this.options.title||this.options.name}
+# Dark Souls 3 RPG
 
-## Supporting Scrimba
+Solo project based on Scrimba's figma design 
 
-Since 2017, we have created over 20 free courses on Scrimba, and we're going to
-continue launching free courses. But to pay our bills, we have to charge once
-in a while. So if you've ever wanted to "give back" to Scrimba, you can do that by buying
-	one of our paid courses
+### Overview
 
-- [Become a professional React developer](https://scrimba.com/course/greact)
-- [The Responsive Web Design Bootcamp](https://scrimba.com/course/gresponsive)
-- [The Ultimate JavaScript Bootcamp](https://scrimba.com/course/gjavascript)
+Second React solo project based on the Scrimba Frontend Developer Career Path. Objective was to create a travel diary app that renders components from imported data and displays them on a static page. App was designed with mobile first approach. Project was done alone and only based on Scrimba's figma design
 
-	It would also mean the world to us if you share the courses.  
 
-Happy Coding!
+### Link
+
+- [Live site](https://react-travel-portfolio.vercel.app/)
+
+### Built with 
+
+- Semantic HTML5 markup
+- CSS
+- React
+
+### Link
+
+[Live site](https://quanglyho.github.io/scrimba_projects/react-travel-portfolio/)

@@ -1,10 +1,12 @@
 # Dark Souls 3 RPG
 
-Solo project based on Scrimba's figma design 
+Project based on Scrimba's frontend developer career path
 
 ### Overview
 
-Second React solo project based on the Scrimba Frontend Developer Career Path. Objective was to create a travel diary app that renders components from imported data and displays them on a static page. App was designed with mobile first approach. Project was done alone and only based on Scrimba's figma design
+This is an RPG based on a widely popular video game Dark Souls 3. The die rolls represent the amount of damage you give and take from your opponent. 
+
+The goal of this project was gain a better understanding of `.map()`, `class`, `setTimeOut()`, and `.fill()`.
 
 
 ### Link
@@ -15,8 +17,8 @@ Second React solo project based on the Scrimba Frontend Developer Career Path. O
 
 - Semantic HTML5 markup
 - CSS
-- React
+- Vanilla Javascript
 
 ### Link
 
-[Live site](https://quanglyho.github.io/scrimba_projects/react-travel-portfolio/)
+[Live site](https://quanglyho.github.io/scrimba_projects/role-playing-game/)

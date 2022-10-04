@@ -1,0 +1,139 @@
+:root {
+    --white: #eee;
+    --black: #000;    
+    --dark-bg: #4A4E74;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Karla', sans-serif;
+}
+
+button {
+    cursor: pointer;
+    outline: none;
+    border: none;
+}
+
+.pane {
+    overflow-y: auto;
+}
+
+.sidebar--title {
+    font-size: 1.5rem;
+}
+
+.container {
+    display: flex;
+}
+
+.split {
+    height: 100%;
+}
+
+.gutter {
+    cursor: col-resize;
+    position: relative;
+    background-color: var(--white);
+    color: var(--black);
+}
+
+.gutter::after {
+    content: '||';
+    position: absolute;
+    top: 50%;
+    left: 2px;
+}
+
+.sidebar {
+    width: 20%;
+    height: 100vh;
+}
+
+.selected-note {
+    background: var(--dark-bg);
+    color: var(--white);
+}
+
+.text-snippet {
+    padding: 5px;
+    font-size: .8rem;
+    font-weight: 400;
+    padding: 1em;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.title {
+    width: 100%;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title:hover > .trash {
+    display: block;
+}
+
+.trash {
+    display: none;
+}
+
+.editer {
+    width: 80%;
+    height: 100vh;
+}
+
+.sidebar--header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1em;
+}
+
+.btn-add-notes {
+    font-size: 1rem;
+    font-weight: 900;
+    width: 2em;
+    height: 2em;
+    background-color: var(--dark-bg);
+    color: var(--white);
+}
+
+.delete-btn {
+    cursor: pointer;
+    border: 1px solid var(--dark-bg);
+    border-radius: 5px;
+    padding: .4em;
+    color: var(--dark-bg);
+    background-color: #f2f2f2;
+    letter-spacing: 1.2px;
+    font-size: .8rem;
+}
+
+.no-notes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.first-note {
+    cursor: pointer;
+    background-color: var(--dark-bg);
+    color: var(--white);
+    font-weight: bold;
+    letter-spacing: 1.1px;
+    border-radius: 3px;
+    padding: .75em 2.5em;
+    border: none;
+    outline: none;
+}

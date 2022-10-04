@@ -8,7 +8,7 @@ The goal of this project was to practice `.useState()`, `.useEffect()`, `props`.
 
 ### Link 
 
-[Live site](https://react-business-card-one.vercel.app/)
+[Live site](https://react-notepad-one.vercel.app/)
 
 ### Built with 
 

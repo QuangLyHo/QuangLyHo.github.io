@@ -3,7 +3,7 @@
     --dark: #67678e;
     --black: #1d1d1d;
     --khaki: #C8A241; 
-    --card--bg: #494949;  
+    --card--bg: #696961;  
 }
 
 * {
@@ -26,7 +26,8 @@ body {
 }
 
 img {
-    width: 100%;
+    max-width: 100%;
+    display: block;
 }
 
 h1,
@@ -37,6 +38,16 @@ h1,
 h1 {
     font-size: 3rem;
     margin-bottom: .25em;
+}
+
+h2 {
+    font-size: 2.25rem;
+    padding: 2em auto 0;
+}
+
+h4 {
+    text-align: center;
+    color: var(--light);
 }
 
 .hero p {
@@ -58,10 +69,11 @@ h1 {
     height: 100vh;
     width: 100%; 
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    align-items: center;
+    /* align-items: center; */
     overflow: scroll;
-    padding: 2em;
+    padding: 4em;
 }
 
 main {
@@ -106,10 +118,10 @@ main {
     object-position: -20px 0px;
 }
 
-footer {
+.guide {
     min-height: 80vh;
     width: 100%;
-    padding: 5em;
+    padding: 3em;
     background: var(--khaki);
     color: var(--black);
     display: flex;
@@ -118,32 +130,28 @@ footer {
     align-items: center;
 }
 
-.guide {
+.guide-card {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    background: var(--black);
+    justify-content: center;
+    max-width: 500px;
+    background-color: var(--black);
     color: var(--khaki);
-    border-radius: 40px;
-    padding: 2em;
-    margin-top: 2em;
+    border-radius: 15px 15px 0 0;
+
 }
 
-.img-guide {
-    width: 200px;
-    border-radius: 40px;
-    padding: 1em;
+.guide-card img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    object-position: 90% 34%;
+    border-radius: 15px 15px 0 0;
 }
 
 .guide-info {
     padding: 1em;
-    max-width: 400px;
-}
-
-.guide-info h4 {
-    color: var(--light);
-    letter-spacing: 1px;
 }
 
 @media (min-width: 800px) {
@@ -154,8 +162,21 @@ footer {
         min-width: 450px;
     }
 
-    .guide {
+    .guide-card {
+        display: flex;
         flex-direction: row;
+        border-radius: 15px;
+        max-width: 750px;
+        /* height: 500px; */
+    }
+
+    .guide-card img {
+        border-radius: 15px 0 0 15px;
+        /* height: 500px; */
+    }
+
+    h4 {
+        text-align: left;
     }
 }
 

@@ -9,4 +9,4 @@ First solo project within the Scrimba frontend development career path
 
 ### Link
 
-- [Live site](https://quanglyho.github.io/solo_projects/hometown-homepage/)
+[Live site](https://quanglyho.github.io/solo_projects/hometown-homepage/)

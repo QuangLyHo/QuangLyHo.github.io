@@ -7,6 +7,8 @@ First solo project within the Scrimba frontend development career path
 - HTML 
 - CSS
 
+### Screenshot
+
 ![](hometown.gif)
 
 ### Link

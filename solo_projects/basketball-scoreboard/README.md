@@ -14,7 +14,7 @@ This is a solo project I've completed throughout Scrimba's frontend web develope
 
 ## Links
 
-- [Live site](https://quanglyho.github.io/solo_projects/basketball-scoreboard/)
+- [Live site](https://quanglyho.github.io/solo_projects/basketball-scoreboard/target_blank)
 
 
 ## Built with

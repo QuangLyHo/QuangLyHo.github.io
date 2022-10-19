@@ -9,7 +9,7 @@ This is a solo project I've completed throughout Scrimba's frontend web develope
 
 ## Screenshot
 
-
+![](basketball-scoreboard.gif)
 
 
 ## Links

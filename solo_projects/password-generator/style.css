@@ -1,0 +1,119 @@
+:root {
+    --bg: #1F2937;
+    --white: #fff;
+    --accent: #4ADF86;
+    --off-white: #D5D4D8;
+    --light-bg: #273549;
+    --neon: #55F991;
+    --button-bg: #10B981;
+}
+
+body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--white); 
+    font-family: 'Inter', sans-serif;
+}
+
+/* Typography */
+
+h1 {
+    font-size: 2.5rem;
+    font-family: 'Karla', sans-serif;
+    font-weight: 700;
+    margin: 0;
+}
+
+p {
+    font-size: 1.25rem;
+    color: var(--off-white);
+    margin: .5em 0 2em;
+}
+
+.accent {
+    display: block;
+    color: var(--accent);
+    margin: 0;
+}
+
+/* Layout */
+
+.container {
+    width: 90%;
+    margin: 4em auto;
+}
+
+.button-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.button-container-input-count {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 1em;
+}
+
+.password-length {
+    background: var(--light-bg);
+    width: 35px;
+    height: 35px;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+hr {
+    border: 0;
+    border-top: 2px solid var(--light-bg);
+    margin: 2em 0;
+}
+
+.output-container {
+    display: flex;
+    column-gap: 1.5em;
+}
+
+.output {
+    background: var(--light-bg);
+    color: var(--neon);
+    width: 250px;
+    height: 40px;
+    border-radius: 6px;
+    line-height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+
+/* Button */
+
+.btn {
+    background: var(--button-bg);
+    color: var(--white);
+    border-radius: 6px;
+    border: 1px solid var(--button-bg);
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.btn-generate {
+    width: 12em;
+    letter-spacing: .5px;
+    padding: 9px 17px 9px 15px;
+}
+
+.btn-plus,
+.btn-minus {
+    width: 35px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}

@@ -1,0 +1,92 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    font-size: 16px;
+    background: #1F2937;
+    height: 100vh;
+}
+
+h1 {
+    font-size: 2.5rem
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 700px;
+    margin: 5% auto;
+}
+
+.section-one {
+    background:
+        linear-gradient(red, transparent),
+        linear-gradient(to top left, lime, transparent),
+        linear-gradient(to top right, blue, transparent);
+    background-blend-mode: multiply;
+    color: #fff;
+    padding: 2em;
+    width: 100%;
+    border-radius: 15px 15px 0 0;
+}
+
+.section-two {
+    background: #1F2937;
+    width: 100%;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.input {
+    width: 150px;
+    height: 85px;
+    border: 2px solid #B295FF;
+    font-size: 3.6rem;
+    color: inherit;
+    text-align: center;
+    margin: 0 0 .5em;
+    background: inherit;
+}
+
+/* Disable input arrow up/down */
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.card {
+    background: #d3d3d3;
+    color: #3d3d3d;
+    margin: auto;
+    padding: .5em;
+}
+
+.card:last-of-type {
+    border-radius: 0 0 15px 15px;
+}
+
+button {
+    width: 115px;
+    height: 45px;
+    border-radius: 5px;
+    border: none;
+}
+

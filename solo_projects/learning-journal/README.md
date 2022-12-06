@@ -6,7 +6,7 @@ Project is part of Scrimba's Frontend Developer Career Path
 
 This is a solo project I've completed throughout Scrimba's frontend web developer path.
 
-Goal was to develop a fully responsive blogspace with multiple pages using flexbox, grid, and media queries. A stretch goal that was achieved on this project was implimenting a fold-out hamburger menu for the navigation bar.
+Goal was to develop a fully responsive blogspace with a mobile first design process. Project includes building multiple pages using flexbox, grid, and media queries. A stretch goal that was achieved on this project was implimenting a fold-out hamburger menu for the navigation bar.
 
 ## Screenshot
 

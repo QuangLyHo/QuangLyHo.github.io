@@ -221,9 +221,9 @@ li {
 
 .nav-items {
     position: absolute;
-    width: 300px;
+    width: 190px;
     margin: -100px 0 0 -115px;
-    border-radius: 0 0 35% 35%;
+    border-radius: 0 0 0 35%;
     padding: 50px 50px 20px;
     padding-top: 125px;
     background: #090909;

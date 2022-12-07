@@ -292,7 +292,6 @@ footer {
 .featured {
     grid-column: 1/-1;
 
-    height: 50vh;
     background: 
         linear-gradient(
             rgba(0, 0, 0, 0),
@@ -303,6 +302,7 @@ footer {
             rgba(0, 0, 0, 0)
         ), url('./images/blog-image-hero.png') no-repeat center;
     background-size: cover;
+    height: 50vh;
     margin-bottom: 1.5em;
 }
 

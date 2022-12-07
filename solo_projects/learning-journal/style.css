@@ -285,9 +285,9 @@ footer {
 }
 
 .featured-container {
-    margin: 2em 2em 1em .5em;
+    /* margin: 2em 2em 1em .5em; */
     padding: 1em;
-    min-width: 400px;
+    min-width: 300px;
     max-width: 800px;
 }
 

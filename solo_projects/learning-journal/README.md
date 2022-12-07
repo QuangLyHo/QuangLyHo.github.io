@@ -1,4 +1,4 @@
-# Password Generator
+# Learning Journal
 
 Project is part of Scrimba's Frontend Developer Career Path
 

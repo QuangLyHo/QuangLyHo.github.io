@@ -1,0 +1,104 @@
+:root {
+  --bg: #0B2434;
+  --card-bg: #F5F5F5;
+  --white: #ffffff;
+  --dice-accent: #59E391;
+  --btn-bg: #5035FF;
+  --font: #2B283A;
+  --font-secondary: #4A4E74;
+}
+
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+html, body {
+  height: 100%;
+}
+
+img, picture, iframe {
+  display: block;
+  max-width: 100%;
+  margin: auto;
+}
+
+button {
+  font: inherit;
+}
+
+body {
+  background: var(--bg);
+  padding: 1.25em;
+  font-family: 'Karla', sans-serif;
+  line-height: 1.5;
+  color: var(--font);
+}
+
+main {
+  background: var(--card-bg);
+  max-width: 600px;
+  min-width: 400px;
+  height: 450px;
+  padding: 1.25em;
+  margin: 4em auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  gap: 1.5em;
+}
+
+.title {
+  font-size: 2.5rem;
+}
+
+.subtitle {
+  font-size: 1.25rem;
+  max-width: 600px;
+  text-align: center;
+  color: var(--font-secondary);
+}
+
+.die-number {
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+
+span {
+  display: block;
+}
+
+.dice-container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: auto auto;
+  gap: 1em;
+  margin-bottom: 1em;
+}
+
+.die {
+  width: 50px;
+  height: 50px;
+  border-radius: 5px;
+  background: var(--white);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.roll-btn {
+  background: var(--btn-bg);
+  color: var(--white);
+  font-size: 1.2rem;
+  width: 150px;
+  height: 50px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}

@@ -8,11 +8,11 @@ The goal of this project was to practice `.useState()`, `.useEffect()`, `props`.
 
 ### Screenshot
 
-
+![](react-tenzies-game.gif)
 
 ### Link 
 
-
+![Live Site](https://taupe-souffle-04c736.netlify.app/)
 
 ### Built with 
 

@@ -12,7 +12,7 @@ The goal of this project was to practice `.useState()`, `.useEffect()`, `props`.
 
 ### Link 
 
-![Live Site](https://taupe-souffle-04c736.netlify.app/)
+- [Live Site](https://taupe-souffle-04c736.netlify.app/)
 
 ### Built with 
 

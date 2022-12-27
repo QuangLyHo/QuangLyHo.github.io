@@ -80,7 +80,7 @@ function App() {
   })
   
   return (
-    <div>
+    <div className='card'>
       <main>
         {tenzies && <Confetti />}
         <h1 className='title'>Tenzies</h1>

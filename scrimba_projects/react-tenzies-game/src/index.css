@@ -107,6 +107,14 @@ span {
   box-shadow: inset 5px 5px 10px -3px rgba(0, 0, 0, 0.15);
 }
 
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
 .timer-container {
   color: #183FE1;
   font-size: 2rem;

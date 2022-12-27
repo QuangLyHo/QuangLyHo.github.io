@@ -106,3 +106,14 @@ span {
 .roll-btn:active {
   box-shadow: inset 5px 5px 10px -3px rgba(0, 0, 0, 0.15);
 }
+
+.timer-container {
+  color: #183FE1;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.timer {
+  font-family: inherit;
+  margin: .1em;
+}

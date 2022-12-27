@@ -6,6 +6,8 @@ This is a project based on Scrimba's frontend developer career path
 
 The goal of this project was to practice `.useState()`, `.useEffect()`, `props`.
 
+Added a stretch goal of including a timer component.
+
 ### Screenshot
 
 ![](react-tenzies-game.gif)

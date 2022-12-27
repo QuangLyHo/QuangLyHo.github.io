@@ -1,18 +1,31 @@
 import { useState, useEffect } from 'react'
 import { nanoid } from 'nanoid'
 import Die from './Die'
+import Timer from './Timer'
 import Confetti from 'react-confetti'
 
 function App() {
   const [dice, setDice] = useState(getNewDice())
   const [tenzies, setTenzies] = useState(false)
+  const [time, setTime] = useState(0)
+  const [running, setRunning] = useState(false)
+
 
   useEffect(() => {
+    let interval
+    
+    if (running) {
+      interval = setInterval(() => {
+        setTime(prevTime => prevTime + 10)
+      }, 10);
+    } 
+
     const allHeld = dice.every(die => die.isHeld)
     const firstValue = dice[0].value
     const sameValue = dice.every(die => die.value === firstValue)
 
     if (allHeld && sameValue) {
+      clearInterval(interval)
       setTenzies(true)
     }
   }, [dice])
@@ -35,6 +48,7 @@ function App() {
   }
 
   function holdDice(diceId) {
+    setRunning(true)
     setDice(prevDice => prevDice.map(die => {
       return die.id === diceId ? 
         {...die, isHeld: !die.isHeld} : die
@@ -49,6 +63,8 @@ function App() {
           generateDice()
       }))
     } else {
+      setTime(0)
+      setRunning(p => !p)
       setTenzies(false)
       setDice(getNewDice())
     }
@@ -71,6 +87,9 @@ function App() {
       <div className='dice-container'>
         {diceElement}
       </div>
+
+      <Timer time={time} />
+
       <button 
         className='roll-btn' 
         onClick={rollDice}
